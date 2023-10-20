@@ -1,0 +1,29 @@
+.navbar {
+    width: 1440px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer
+}
+
+.login-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.navbarMenuItem {
+    font-size: 14px;
+    color: white;
+    margin: 52px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+}
