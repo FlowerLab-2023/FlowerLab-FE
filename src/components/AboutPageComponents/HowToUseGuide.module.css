@@ -1,0 +1,142 @@
+.container {
+    background-color: #D5D76A;
+    width: 100%;
+    height: 100vh;
+}
+
+.backgroundContainer {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    text-align: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.headerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+
+.bodyLeft {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 136px;
+    letter-spacing: -0.06em;
+    text-align: left;
+
+}
+
+.bodyRight {
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.bodyImg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.step1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.step2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.step3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.headerCenterTitle {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.06em;
+    text-align: center;
+
+}
+
+.headerCenterContent {
+    margin-top: 36px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.06em;
+    text-align: center;
+}
+
+
+.step1,
+.step2,
+.step3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.step1.selected,
+.step2.selected,
+.step3.selected {
+  color: rgba(255, 255, 255, 1);
+}
+
+.bodyImgContainer:hover {
+    background-color:rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+.bodyImgContainer {
+    width: 100%;
+    height: 100%;
+}

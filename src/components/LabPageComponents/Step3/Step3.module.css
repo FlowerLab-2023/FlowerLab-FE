@@ -1,0 +1,273 @@
+body {
+  background-color: #FFFFF6;
+}
+
+.container {
+  width: 1440px;
+  height: 100%;
+  margin: 50px auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gridContainer {
+  height: 825px;
+  background-color: #FFFFF6;
+  background-image: none;
+  overflow: hidden;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: grid;
+  grid-template-rows: 1fr 14fr 1fr;
+  border-bottom: 1px solid #47587A;
+}
+
+.gridItem1,
+.gridItem2 {
+  border-left: 1px solid #47587A;
+  border-right: 1px solid #47587A;
+  border-bottom: 1px solid #47587A;
+  padding: 10px;
+  text-align: center;
+}
+
+.gridItem3 {
+  border-left: 1px solid #47587A;
+  border-right: 1px solid #47587A;
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  color: #47587A;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 44px;
+  margin-top: 20px;
+}
+
+.content {
+  color: #797E89;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-left: 44px;
+  margin-top: 12px;
+}
+
+.gridItem2 {
+  position: relative;
+}
+
+.number {
+  color: #47587A;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #47587A;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.colorGridContainer {
+  position: absolute;
+  left: 158px;
+  top: 204px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  justify-items: center;
+  align-items: center;
+
+}
+
+.colorGridItem1 {
+  background-color: #BEBDBD;
+  color: #888888;
+}
+
+.colorGridItem2 {
+  background-color: #006AA6;
+  color: #003A5A;
+}
+
+.colorGridItem3 {
+  background-color: #FFFFFF;
+  border: #E7E7E7 1px solid;
+  color: #B3B3B3;
+}
+
+.colorGridItem4 {
+  background-color: #FFC977;
+  color: #FFB039;
+}
+
+.colorGridItem5 {
+  background-color: #FFC531;
+  color: #FFE49F;
+}
+
+.colorGridItem6 {
+  background-color: #2548C5;
+  color: #0D298C;
+}
+
+.colorGridItem7 {
+  background-color: #2E2E2E;
+  color: #585858;
+}
+
+.colorGridItem8 {
+  background-color: #73B025;
+  color: #578F0E;
+}
+
+.colorGridItem9 {
+  background-color: #BE4747;
+  color: #E08888;
+}
+
+.colorGridItem10 {
+  background-color: #C387DF;
+  color: #A23ED0;
+}
+
+.colorGridItem11 {
+  background-color: #FF7070;
+  color: #FFACAC;
+}
+
+.colorGridItem12 {
+  background-color: #005919;
+  color: #289948;
+}
+
+.colorGridItem13 {
+  background-color: #ABB7F5;
+  color: #7085F4;
+}
+
+.colorGridItem14 {
+  background-color: #FF56BB;
+  color: #FF98D6;
+}
+
+.colorGridItem15 {
+  background-color: #FFA573;
+  color: #FF833E;
+}
+
+.colorGridItem16 {
+  background-color: #61D9FF;
+  color: #0087B1;
+}
+
+.colorGridItem1,
+.colorGridItem2,
+.colorGridItem3,
+.colorGridItem4,
+.colorGridItem5,
+.colorGridItem6,
+.colorGridItem7,
+.colorGridItem8,
+.colorGridItem9,
+.colorGridItem10,
+.colorGridItem11,
+.colorGridItem12,
+.colorGridItem13,
+.colorGridItem14,
+.colorGridItem15,
+.colorGridItem16 {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 8px solid transparent;
+  margin: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.colorGridItem1.selected {
+  border: 8px solid #888888;
+
+}
+
+.colorGridItem2.selected {
+  border: 8px solid #003A5A;
+}
+
+.colorGridItem3.selected {
+  border: 8px solid #B3B3B3;
+}
+
+.colorGridItem4.selected {
+  border: 8px solid #FEA725;
+}
+
+.colorGridItem5.selected {
+  border: 8px solid #FFE49F;
+}
+
+.colorGridItem6.selected {
+  border: 8px solid #0D298C;
+}
+
+.colorGridItem7.selected {
+  border: 8px solid #585858;
+}
+
+.colorGridItem8.selected {
+  border: 8px solid #578F0E;
+}
+
+.colorGridItem9.selected {
+  border: 8px solid #E08888;
+}
+
+.colorGridItem10.selected {
+  border: 8px solid #A23ED0;
+}
+
+.colorGridItem11.selected {
+  border: 8px solid #FFACAC;
+}
+
+.colorGridItem12.selected {
+  border: 8px solid #289948;
+}
+
+.colorGridItem13.selected {
+  border: 8px solid #7085F4;
+}
+
+.colorGridItem14.selected {
+  border: 8px solid #FF98D6;
+}
+
+.colorGridItem15.selected {
+  border: 8px solid #FF833E;
+}
+
+.colorGridItem16.selected {
+  border: 8px solid #0087B1;
+}
+
+.flowerIconContainer {
+  margin-right: 15px;
+}

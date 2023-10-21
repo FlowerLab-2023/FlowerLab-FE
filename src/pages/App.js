@@ -1,13 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import AboutPage from './about/AboutPage';
-import LabPage from './lab/LabPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import ScrollToTop from '../components/ScrollToTop';
-import Loading from '../components/Loading';
+
+import LoadingPage from '../pages/LoadingPage';
+import ScrollToTop from '../utils/ScrollToTop/ScrollToTop';
 // import Result from '../pages/Result'
 
-import '../styles/App.css'
+import '../styles/App.css';
+import AboutPage from './AboutPage/index';
+import LabPage from './Labpage';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
                 <Route path="/lab" element={<LabPage />} />
                 {/* <Route path="/market" element={<About />} /> */}
                 {/* <Route path="/result" element={<Result />} /> */}
-                <Route path="/loading" element={<Loading />} />
+                <Route path="/loading" element={<LoadingPage />} />
             </Routes>
         </BrowserRouter>
     );
