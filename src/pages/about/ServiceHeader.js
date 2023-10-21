@@ -37,7 +37,7 @@ function ServiceHeader() {
             <img src={FlowerIcon} alt="꽃" className="main-menu-item-img" />
           </div>
 
-          <Link to={'/laboratory'} className="no-text-decoration">
+          <Link to={'/lab'} className="no-text-decoration">
             <div className="main-menu-item-2">
               <div className="main-menu-item-text">AI 꽃다발 추천받으러 가기</div>
               <img src={FlowerIcon} alt="꽃" className="main-menu-item-img" />

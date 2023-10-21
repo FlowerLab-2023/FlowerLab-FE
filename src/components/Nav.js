@@ -16,7 +16,7 @@ function Nav() {
             />
 
             <div className="navbarMenu">
-                <Link className="navbarMenuItem" to={'/laboratory'}>LABORATORY</Link>
+                <Link className="navbarMenuItem" to={'/lab'}>LABORATORY</Link>
                 <Link className="navbarMenuItem" to={'/'}>ABOUT</Link>
                 <Link className="navbarMenuItem" to={'/market'}>MARKET</Link>
             </div>
