@@ -1,0 +1,22 @@
+.container {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(180deg, #E2DB9C 0%, #E9979E 52.08%, #F0BE72 100%);
+  overflow: hidden;
+}
+
+.navBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #5D4D3A;
+}
+
+.resultContainer {
+  width: 1440px;
+  height: 1895px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
