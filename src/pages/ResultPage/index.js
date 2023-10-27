@@ -1,13 +1,13 @@
 import React from 'react';
 
 import FlowerResultContainer from '../../components/ResultPageComponent/FlowerResultContainer/FlowerResultContainer';
-import FeaturedImageComponent from '../../components/ResultPageComponent/FeaturedImageComponent/FeaturedImageComponent';
+import FeaturedImage from '../../components/ResultPageComponent/FeaturedImage/FeaturedImage';
 
 function ResultPage() {
 
     return (
         <FlowerResultContainer>
-            <FeaturedImageComponent />
+            <FeaturedImage />
         </FlowerResultContainer>
     );
 }
