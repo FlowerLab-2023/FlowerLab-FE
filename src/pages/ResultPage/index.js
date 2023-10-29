@@ -3,6 +3,7 @@ import React from 'react';
 import FlowerResultContainer from '../../components/ResultPageComponent/FlowerResultContainer/FlowerResultContainer';
 import FeaturedImage from '../../components/ResultPageComponent/FeaturedImage/FeaturedImage';
 import FeatureDetail from '../../components/ResultPageComponent/FeatureDetail/FeatureDetail';
+import FlowerCard from '../../components/ResultPageComponent/FlowerList/FlowerCard';
 
 function ResultPage() {
 
@@ -10,6 +11,7 @@ function ResultPage() {
         <FlowerResultContainer>
             <FeaturedImage />
             <FeatureDetail />
+            <FlowerCard />
         </FlowerResultContainer>
     );
 }
