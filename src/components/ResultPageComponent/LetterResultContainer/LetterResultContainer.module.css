@@ -1,0 +1,21 @@
+.container {
+    height: 1274px;
+    width: 100%;
+    background-color: #EFBF74;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .resultContainer {
+    max-width: 100vw;
+    width: 100%;
+    height: 1895px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
