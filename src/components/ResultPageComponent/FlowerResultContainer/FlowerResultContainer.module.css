@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-bottom: 1px solid #5D4D3A;
 }
 
 .navBottom {
