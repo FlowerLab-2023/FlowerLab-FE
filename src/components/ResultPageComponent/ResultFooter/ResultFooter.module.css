@@ -1,0 +1,25 @@
+.container {
+    height: 285px;
+    background-color: #D5D76A;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon {
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-bottom: 28px;
+    margin-top: 48px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+}

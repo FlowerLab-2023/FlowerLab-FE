@@ -8,6 +8,7 @@ import LetterResultContainer from '../../components/ResultPageComponent/LetterRe
 import LetterHeader from '../../components/ResultPageComponent/LetterHeader/LetterHeader';
 import LetterCard from '../../components/ResultPageComponent/LetterCard/LetterCard';
 import FooterFlowerImages from '../../components/ResultPageComponent/FooterFlowerImages/FooterFlowerImages';
+import ResultFooter from '../../components/ResultPageComponent/ResultFooter/ResultFooter';
 
 function ResultPage() {
 
@@ -23,6 +24,7 @@ function ResultPage() {
                 <LetterCard />
                 <FooterFlowerImages />
             </LetterResultContainer>
+            <ResultFooter />
         </div>
     );
 }
