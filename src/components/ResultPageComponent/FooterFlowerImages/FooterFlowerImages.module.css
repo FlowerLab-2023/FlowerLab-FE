@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    overflow-x: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.container img {
+    flex-shrink: 0;
+    margin-left: 36px;
+    margin-right: 36px;
+}

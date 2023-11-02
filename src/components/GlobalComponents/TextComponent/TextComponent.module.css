@@ -1,0 +1,23 @@
+.loadingText1 {
+    position: absolute;
+    top: 347px;
+    left: 647;
+    color: #ADAE3D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.loadingText2 {
+    position: absolute;
+    top: 379px;
+    left: 557px;
+    color: #ADAE3D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}

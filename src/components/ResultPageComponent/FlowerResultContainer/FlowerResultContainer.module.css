@@ -1,0 +1,28 @@
+.container {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(180deg, #E2DB9C 0%, #E9979E 52.08%, #F0BE72 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #5D4D3A;
+}
+
+.navBottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #5D4D3A;
+}
+
+.resultContainer {
+  max-width: 100vw;
+  width: 100%;
+  height: 1895px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}

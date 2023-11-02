@@ -1,0 +1,29 @@
+.flower1 {
+    position: absolute;
+    top: 106px;
+    left: 21px;
+}
+
+.flower2 {
+    position: absolute;
+    bottom: 0px;
+    left: 320px;
+}
+
+.flower3 {
+    position: absolute;
+    top: 71.08px;
+    left: 440.44px;
+}
+
+.flower4 {
+    position: absolute;
+    top: 42px;
+    right: 123.53px;
+}
+
+.flower5 {
+    position: absolute;
+    right: 84px;
+    bottom: 0;
+}
